@@ -13,18 +13,20 @@
         <!-- Simple line icons-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!--<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />-->
+        <link href="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body id="page-top">
+    <body id="page-top" style="letter-spacing: 1px;">
         <!-- Navigation-->
         <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
         <nav id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand"><a href="#page-top">Menu</a></li>
                 <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
-                <li class="sidebar-nav-item"><a href="#about">About me</a></li>
+                <li class="sidebar-nav-item"><a href="#about">Résumé</a></li>
                 <li class="sidebar-nav-item"><a href="#services">Technos</a></li>
                 <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
                 <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
@@ -33,17 +35,17 @@
         <!-- Header-->
         <header class="masthead d-flex align-items-center">
             <div class="container px-4 px-lg-5 text-center">
-                <h1 class="mb-1">Bienvenue sur mon portfolio.</h1>
-                <h3 class="mb-5"><em>Coder comme sculpter est art, la théorie ne suffit pas!</em></h3>
-                <a class="btn btn-primary btn-xl" href="#about">Bonjour,&nbsp; je m'appelle François,&nbsp; jeune sculpteur !</a>
+                <h1 class="fs-1 mb-1" >Coder comme sculpter est un art,<br/>la théorie ne suffit pas.</h1>
+                <h3 class="mb-5"><em>Bonjour,&nbsp; je m'appelle François,&nbsp; jeune sculpteur !</em></h3>
+                <a class="fs-1 btn btn-primary btn-xl rounded-pill" href="#about">Bienvenue sur mon portfolio</a>
             </div>
         </header>
         <!-- About-->
-        <section class="content-section bg-light" id="about">
+        <section class="content-section bg-dark text-light" id="about">
             <div class="container px-4 px-lg-5 text-center">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-10">
-                        <h2>En résumé...</h2>
+                        <h2 class="mb-5">Mon résumé...</h2>
                         <p class="lead mb-5">
                             Que dire, si ce n'est que j'étais déjà étudiant en informatique au XXème siècle !
                             Et puis 'quelques' années se sont écoulées et une profession orientée en management dans des secteurs d'activités tels que
@@ -51,78 +53,83 @@
                         </p>
                         <p class="lead mb-5">
                             2020, un déclic, un retour aux sources avec le code!
-                            J'entreprends alors une reconvertion professionnelle. Je prends des cours en ligne avec Belivemy, Udemy mais surtout Grafikart et Open classRoom.
+                            J'entreprends alors une reconvertion professionnelle. Je prends des cours en ligne avec Belivemy, Udemy mais surtout Grafikart et Open-Classroom.
                              Autodidacte et fort de mes acquis en algorithme et logique avec mon passé d'étudiant, je me lance un défi.
-                            Certes ils sont loin les "ATARI ST, assembleur 68000, Cobol Fortran Dbase etc, mais le challenge est excitant et le travail ne me fait pas peur!
+                            Certes, ils sont loin les "ATARI ST, assembleur 68000, Cobol Fortran Dbase etc, mais le challenge est excitant et le travail ne me fait pas peur!
                         </p>
                         <p class="lead mb-5">
-                            Aujourd'hui, marié, une grande famille, quatre enfants, amateur de sports, de musique, des soirées entre amis mais plus que tout un réel esprit d'équipe incontournable pour ma réussite professionnelle!
+                            Aujourd'hui, marié, une grande famille, quatre enfants et une petite-fille, amateur de sports, de musique, des soirées entre amis mais plus que tout un réel esprit d'équipe incontournable pour ma réussite professionnelle!
                         </p>
-                        <a class="btn btn-dark btn-xl" href="#services">Mes technos</a>
+                        <a class="fs-3 btn btn-primary btn-xl rounded-pill" href="#services">Mes technos</a>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Services-->
-        <section class="content-section bg-success text-white text-center" id="services">
+        <section class="content-section bg-primary text-white text-center" id="services">
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading">
-                    <h3 class="text-secondary mb-0">Les technos</h3>
-                    <h2 class="mb-5">que je travaille...</h2>
+                    <h3 class="fs-4 text-secondary mb-0">Les technos</h3>
+                    <h2 class="mb-5">que je travaille :</h2>
                 </div>
                 <!-- technos 1 -->
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="far fa-file-code"></i></span>
-                        <h4><strong>HTML/CSS</strong></h4>
-                        <p class="text-faded mb-0">Looks great on any screen size!</p>
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="mt-3 display-1 fab fa-html5"></i></span>
+                        <h4><strong>Html</strong></h4>
+                        <p class="text-faded mb-0">Au commencement...</p>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="fab fa-sass"></i></span>
-                        <h4><strong>SASS/BOOTSTRAP</strong></h4>
-                        <p class="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p>
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="mt-3 display-1 fab fa-css3-alt"></i></span>
+                        <h4><strong>Css + Sass</strong></h4>
+                        <p class="text-faded mb-0">puis un peu de design...</p>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
-                        <h4><strong>PHP/Symfony</strong></h4>
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="mt-3 display-1 fab fa-js-square"></i></span>
+                        <h4><strong>Java Script</strong></h4>
                         <p class="text-faded mb-0">
-                            Millions of users
-                            <i class="fas fa-heart"></i>
-                            Start Bootstrap!
+                            Incontournable !
                         </p>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mustache"></i></span>
-                        <h4><strong>Git/Github</strong></h4>
-                        <p class="text-faded mb-0">I mustache you a question...</p>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="mt-3 display-1 fab fa-bootstrap"></i></span>
+                        <h4><strong>Bootstrap</strong></h4>
+                        <p class="text-faded mb-0">Et un gain de temps...</p>
                     </div>
+                    
                 </div>
                 <!-- fin technos 1 -->
                 <!-- technos 2 -->
                 <div class="row mt-5 gx-4 gx-lg-5">
                     <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="far fa-file-code"></i></span>
-                        <h4><strong>HTML/CSS</strong></h4>
-                        <p class="text-faded mb-0">Looks great on any screen size!</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="fab fa-sass"></i></span>
-                        <h4><strong>SASS/BOOTSTRAP</strong></h4>
-                        <p class="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
-                        <h4><strong>PHP/Symfony</strong></h4>
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="mt-3 display-1 fab fa-php"></i></span>
+                        <h4><strong>PHP</strong></h4>
                         <p class="text-faded mb-0">
-                            Millions of users
+                            Mon langage 
                             <i class="fas fa-heart"></i>
-                            Start Bootstrap!
                         </p>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mustache"></i></span>
-                        <h4><strong>Git/Github</strong></h4>
-                        <p class="text-faded mb-0">I mustache you a question...</p>
+                    
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="mt-3 display-1 fab fa-symfony"></i></span>
+                        <h4><strong>Symfony</strong></h4>
+                        <p class="text-faded mb-0">
+                            J'y arrive bientôt
+                            <i class="far fa-smile-wink"></i>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3">
+                            <i class="mt-3 display-1 fab fa-github">
+                            </i>
+                        </span>
+                        <h4><strong>Github</strong></h4>
+                        <p class="text-faded mb-0">On s'y retrouve tous !</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="mt-3 display-1 fab fa-wordpress"></i></span>
+                        <h4><strong>WordPress</strong></h4>
+                        <p class="text-faded mb-0">et un CMS au moins.</p>
                     </div>
                 </div>
                 <!-- fin technos 2 -->
@@ -136,7 +143,9 @@
                     <em>mon CV</em>
                     au format PDF!
                 </h2>
-                <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
+                <a class="btn btn-primary btn-xl rounded-pill " href="assets\CV_classique_FCBonnaire01.pdf" download="CV_FCBonnaire01">
+                    Download Now!
+                </a>
             </div>
         </section>
         <!-- Portfolio-->
@@ -144,7 +153,7 @@
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading text-center">
                     <h3 class="text-secondary mb-0">Portfolio</h3>
-                    <h2 class="mb-5">Recent Projects</h2>
+                    <h2 class="mb-5">Projets Récents</h2>
                 </div>
                 <div class="row gx-0">
                     <div class="col-lg-6">
@@ -155,7 +164,7 @@
                                     <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/asb.png" alt="..." />
                         </a>
                     </div>
                     <div class="col-lg-6">
@@ -195,6 +204,7 @@
             </div>
         </section>
         <!-- Call to Action-->
+        <!--
         <section class="content-section bg-primary text-white">
             <div class="container px-4 px-lg-5 text-center">
                 <h2 class="mb-4">The buttons below are impossible to resist...</h2>
@@ -202,6 +212,7 @@
                 <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a>
             </div>
         </section>
+        -->
         <!-- Map-->
         <div class="map" id="contact">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44612.949675470634!2d6.3749858367858225!3d45.66468965043804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478bc30913f57c6f%3A0x128d1550610e8157!2s73200%20Albertville!5e0!3m2!1sfr!2sfr!4v1643699669105!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -213,16 +224,13 @@
             <div class="container px-4 px-lg-5">
                 <ul class="list-inline mb-5">
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-facebook"></i></a>
+                        <a class="social-link rounded-circle text-white mr-3" href=https://www.linkedin.com/in/fran%C3%A7oiscb/" target="blank" ><i class="icon-social-linkedin"></i></a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-linkedin"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white" href="#!"><i class="icon-social-github"></i></a>
+                        <a class="social-link rounded-circle text-white" href="https://github.com/fransoa2103" target="blank"><i class="icon-social-github"></i></a>
                     </li>
                 </ul>
-                <p class="text-muted small mb-0">Copyright &copy; Your Website 2021</p>
+                <p id="copyright" class="fs-5 text-muted mb-0"></p>
             </div>
         </footer>
         <!-- Scroll to Top Button-->

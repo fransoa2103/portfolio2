@@ -5,6 +5,11 @@
 */
 window.addEventListener('DOMContentLoaded', event => {
 
+    // injected copyright 
+    let current_year = new Date();
+    let copyRight = document.getElementById('copyright');
+    copyRight.innerText="Mon portfolio - © " + current_year.getFullYear();
+
     const sidebarWrapper = document.getElementById('sidebar-wrapper');
     let scrollToTopVisible = false;
     // Closes the sidebar menu
